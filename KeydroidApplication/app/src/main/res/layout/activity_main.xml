@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#3b5998"
+    android:background="#3b70e1"
     android:gravity="center"
     tools:context="com.example.android.keydroidapplication.MainActivity">
 
@@ -17,15 +17,20 @@
         android:textColor="#ffffff"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_gravity="center"
-        android:text="Your audio will begin soon" />
+        android:text="Please wait for the audio to begin"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp" />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
-        android:layout_centerInParent="true"
 
         android:layout_height="wrap_content"
-        android:text="Click to continue" />
+        android:text="Click to continue"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="116dp" />
 
 
 </RelativeLayout>
