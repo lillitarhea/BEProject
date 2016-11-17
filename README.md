@@ -5,5 +5,6 @@
 ###Progress of the Project
 * Research phase done
 * Completed first two UI screens
+* Added Presentation and LATEX report
 
 
